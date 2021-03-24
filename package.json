@@ -1,0 +1,18 @@
+{
+  "name": "gmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js | pino-pretty -c  -l -t",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@textile/hub": "^6.1.2",
+    "isomorphic-ws": "^4.0.1",
+    "pino": "^6.11.2",
+    "ws": "^7.4.4"
+  }
+}
